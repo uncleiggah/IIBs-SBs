@@ -16,4 +16,7 @@ public class ExaminationBoard {
         RegistrationFees = 2000;
         GradingPolicies = "A=85-100, B= 75-84, C= 65-74";
     }
+    public ExaminationBoard(String CandidateName) {
+        this.CandidateName = CandidateName;
+    }
 }
